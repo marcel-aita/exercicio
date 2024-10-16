@@ -1,2 +1,4 @@
-# exercicio 
-- aula dia 15/10
+# Exemplos e exercicios de lógica.
+`Prof. Luis Gustavo`
+-
+- P:\Prof. Luis Gustavo\algoritmos
