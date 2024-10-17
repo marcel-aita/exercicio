@@ -1,4 +1,4 @@
-### Faça um fluxograma que gere e mostre os múltiplos de 7 apartir de 22 até 60 (7*4-7*8)
-![imagem](alg-exercico-aula-4.drawio.png)
+### Faça um fluxograma que gere e mostre os múltiplos de 7 apartir de 22 até 60
+![diagrama](alg-exercico-aula-4.drawio.png)
 ### Faça um fluxograma que gere e mostre os múltiplos de 5 apartir de 41 até 63. Use uma variável contadora chamada Q para contar quantos números foram gerados e ao final mostre o valor de Q
 ### Faça um fluxograma que gere e mostre os múltiplos de 10 a partir de 20 até 80. Ao final imprima a quantidade de números pares e a quantidade de números ímpares. 
