@@ -59,3 +59,4 @@
 				i = i + i
 
 			Escrever soma	
+---
