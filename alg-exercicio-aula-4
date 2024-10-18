@@ -1,4 +1,44 @@
 ### Faça um fluxograma que gere e mostre os múltiplos de 7 apartir de 22 até 60
-![diagrama](alg-exercico-aula-4.drawio.png)
+```mermaid
+graph TD
+    A[Início] --> B{Número >= 22 e <= 60?}
+    B -->|Sim| C[É múltiplo de 7?]
+    C -->|Sim| D[Imprimir número]
+    C -->|Não| E[Incrementar número]
+    D --> E[Incrementar número]
+    E --> B
+    B -->|Não| F[Fim]
+```
 ### Faça um fluxograma que gere e mostre os múltiplos de 5 apartir de 41 até 63. Use uma variável contadora chamada Q para contar quantos números foram gerados e ao final mostre o valor de Q
-### Faça um fluxograma que gere e mostre os múltiplos de 10 a partir de 20 até 80. Ao final imprima a quantidade de números pares e a quantidade de números ímpares. 
+```mermaid
+graph TD
+    A[Início] --> B[Q = 0]
+    B --> C[Num = 41]
+    C --> D{Num <= 63}
+    D --> |Sim| E{Num % 5 == 0}
+    E --> |Sim| F[Mostrar Num]
+    F --> G[Q = Q + 1]
+    G --> H[Num = Num + 1]
+    E --> |Não| H
+    H --> D
+    D --> |Não| I[Fim]
+    I --> J[Mostrar Q]
+
+```
+### Faça um fluxograma que gere e mostre os múltiplos de 10 a partir de 20 até 80. Ao final imprima a quantidade de números pares e a quantidade de números ímpares.
+```mermaid
+graph TD
+    A[Início] --> B{Número >= 20 e <= 80?}
+    B -->|Sim| C[É múltiplo de 10?]
+    C -->|Sim| D[Imprimir número]
+    C -->|Não| E[Incrementar número]
+    D --> F{É par?}
+    F -->|Sim| G[Incrementar contador de pares]
+    F -->|Não| H[Incrementar contador de ímpares]
+    G --> E[Incrementar número]
+    H --> E[Incrementar número]
+    E --> B
+    B -->|Não| I[Imprimir contadores de pares e ímpares]
+    I --> J[Fim]
+
+```
